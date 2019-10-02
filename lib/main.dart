@@ -4,6 +4,7 @@ import 'package:flipcard/animated_bottom_bar.dart';
 import 'package:flipcard/Home.dart';
 void main() {
   runApp(new MaterialApp(
+    debugShowCheckedModeBanner: false,
     home: Home(),
   ));
 }

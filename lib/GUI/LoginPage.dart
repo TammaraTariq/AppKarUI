@@ -127,13 +127,13 @@ class LoginPageState extends State<LoginPage>{
                     SizedBox(height:MediaQuery.of(context).size.width / 12),
                     phoneField,
                     SizedBox(
-                      height:MediaQuery.of(context).size.width / 12,
+                      height:MediaQuery.of(context).size.width /6,
                     ),
                     loginButon,
                     SizedBox(
                       height: MediaQuery.of(context).size.width / 12,
                     ),
-                    signUpButon,
+                    //signUpButon,
                     SizedBox(
                       height:MediaQuery.of(context).size.width / 12,
                     ),

@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flipcard/GUI/RegisterPage.dart';
 import 'package:flipcard/GUI/LoginPage.dart';
 import 'package:flipcard/animated_bottom_bar.dart';
+import 'package:flipcard/GUI/cardview.dart';
+
+import 'package:flipcard/GUI/searchkar.dart';
 class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -14,13 +17,13 @@ class BottomBar extends StatefulWidget {
   final List<BarItem> barItems = [
     BarItem(text: "الحرف",
         iconData: Icons.home,
-        color: Colors.redAccent),
+        color: Colors.blue),
     BarItem(text: "بحث",
         iconData: Icons.search,
         color: Colors.deepOrange),
     BarItem(
         text: "تسجيل",
-        iconData: Icons.add,
+        iconData: Icons.group_add,
         color: Colors.orange[600]),
 
     BarItem(
@@ -35,10 +38,10 @@ class BottomBar extends StatefulWidget {
   final List<Widget> _widgetVeiw = <Widget>[
 
 
-    Center(child: Text('Home')),
+    KarView(),
     ///////////////////////
 
-    Center(child: Text('Serach')),
+    SearchKar(),
 
     //////////////////////
 
